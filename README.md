@@ -51,4 +51,4 @@ python hangman.py
 
 ## Author
 
-Pranali Supekar
+Python Programming Internship Project

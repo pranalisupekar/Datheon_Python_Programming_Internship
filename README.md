@@ -1,54 +1,54 @@
-# Hangman Word Guessing Game
+# Datheon Python Programming Internship
 
-## Project Description
+## About
 
-Hangman is a terminal-based word guessing game developed using Python. The computer selects a random word from a text file, and the player tries to guess the word one letter at a time.
+This repository contains Python projects developed as part of the Datheon Python Programming Internship.
 
-## Features
+## Projects
 
-* Random word selection
-* Hidden word displayed using underscores
-* Correct letters revealed in their positions
-* Six incorrect attempts allowed
-* ASCII Hangman drawings
-* Duplicate guesses handled without losing attempts
-* Invalid input validation
-* Winning and losing messages
+### Task 1: Hangman Word Guessing Game
+
+A terminal-based word guessing game in which players guess a randomly selected word one letter at a time.
+
+**Technologies:** Python
+
+**Folder:** `Task-1-Hangman`
+
+### Task 3: Automated File Organizer
+
+A Python utility that organizes files into categories based on their file types.
+
+**Technologies:** Python, os, shutil
+
+**Folder:** `Task-3-Automated-File-Organizer-Cleanup-Utility`
+
+### Task 4: Rule-Based Customer Support Chatbot
+
+An interactive chatbot that uses keywords, regular expressions, and a JSON FAQ dataset to answer customer-support questions.
+
+**Technologies:** Python, JSON, Regular Expressions
+
+**Folder:** `Task-4-Rule-Based-Chatbot`
 
 ## Technologies Used
 
 * Python 3
-* Random module
-* Lists and sets
-* Loops and conditional statements
-* File handling
-
-## Project Files
-
-* `hangman.py` - Main game program
-* `words.txt` - English word list
-* `README.md` - Project documentation
+* JSON
+* Regular Expressions
+* File Handling
+* Git and GitHub
 
 ## How to Run
 
-1. Install Python 3.
-2. Keep `hangman.py` and `words.txt` in the same folder.
-3. Open a terminal in the project folder.
-4. Run the command:
+1. Open the folder for the task you want to execute.
+2. Read that task's README file.
+3. Follow the instructions provided to run the Python program.
 
-```bash
-python hangman.py
-```
+## Repository Structure
 
-## How to Play
-
-1. Run the program.
-2. Enter one letter when prompted.
-3. Correct guesses reveal matching letters.
-4. Incorrect guesses reduce the remaining attempts.
-5. Avoid repeating letters.
-6. Guess the complete word before running out of attempts.
-
-## Author
-
-Python Programming Internship Project
+```text
+Datheon_Python_Programming_Internship/
+├── Task-1-Hangman/
+├── Task-3-Automated-File-Organizer-Cleanup-Utility/
+├── Task-4-Rule-Based-Chatbot/
+└── README.md

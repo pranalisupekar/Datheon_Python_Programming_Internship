@@ -49,6 +49,6 @@ An interactive chatbot that uses keywords, regular expressions, and a JSON FAQ d
 ```text
 Datheon_Python_Programming_Internship/
 ├── Task-1-Hangman/
-├── Task-3-Automated-File-Organizer-Cleanup-Utility/
+├──     Task-3-Automated-File-Organizer-Cleanup-Utility/
 ├── Task-4-Rule-Based-Chatbot/
 └── README.md

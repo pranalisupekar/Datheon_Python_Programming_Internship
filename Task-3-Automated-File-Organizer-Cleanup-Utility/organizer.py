@@ -128,6 +128,10 @@ else:
                 print(f"Moved: {file.name} -> {category}/")
                 moved_files += 1
 
+            except FileExistsError:
+                print(f"File already exists: {file.name}")
+                skipped_files += 1
+
             except PermissionError:
                 print(f"Permission denied: {file.name}")
                 skipped_files += 1
@@ -135,7 +139,6 @@ else:
             except OSError as error:
                 print(f"Could not move {file.name}: {error}")
                 skipped_files += 1
-
     except PermissionError:
         print("Error: Permission denied while reading the selected folder.")
 
